@@ -1,0 +1,66 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Fragment
+subtitle: 幸会
+description: For mind!
+author: 不白
+email: uni.mysnow@gmail.com
+language: zh-Hans
+timezone: 'Asia/Shanghai'
+since: 2015
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://nowhitestar.github.io/fragment
+root: /fragment/
+baseurl: http://nowhitestar.github.io/
+permalink: :year/:month/:day/:title/
+
+# Directory
+source_dir: source
+
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY 年 MM 月 DD 日
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: hollow
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy: 
+  type: git 
+  repo: https://github.com/nowhitestar/fragment.git
+  branch: gh-pages 
