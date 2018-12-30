@@ -19,7 +19,7 @@
 
     <!-- Title -->
     
-    <title>page | blog | Fragment</title>
+    <title>混沌初开 | Fragment</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -43,8 +43,7 @@
 <body>
 
     <!-- Content -->
-    
-
+    <section class="article-container">
 <!-- Back fragment -->
 <a class="nav-back" href="/fragment/">
     <i class="fa fa-puzzle-piece"></i>
@@ -55,66 +54,73 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>blog</h1>
+                <div class="post-heading">
+                    <h1>混沌初开</h1>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                <div class="post-preview archive">
-    <a href="/fragment/2017/08/26/2017-08-26-死亡诗社/">
-        <h1 class="post-title archive">
-            死亡诗社
-        </h1>
-    </a>
-</div>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Main Content -->
+            <div class="post-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>将网站重新整理，混沌初开，不必要的都删去，生活也一样。</p>
+<a id="more"></a>
+<p>一开始接触的Jekyll，当时在找主题的时候，无可救药的喜欢上<a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">NexT</a>这个主题，无奈当时只支持Hexo，但是我又不想换平台，只好作罢。</p>
+<p>8月终于想起要好好做一下自己的网站，于是又想起NexT，挥之不去，却意外发现hollow这个主题，便一见钟情。</p>
+<p>Next固然简约，<a href="https://github.com/zchen9/hexo-theme-hollow" target="_blank" rel="noopener">hollow</a>却更符合我心中个人博客的感觉，这是一方天地，只有自己，只有思想。</p>
+<p>欢迎来到我的世界！</p>
+<p>Hexo的文章发布比Jekyll稍微简单一点，布置好一切之后，在webroot启动终端输入：</p>
+<p>‘’’<br>hexo deploy –generate<br>‘’’</p>
+<p>即可。</p>
+
  
-            
-                <div class="post-preview archive">
-    <a href="/fragment/2017/08/17/2017-08-17-混沌初开/">
-        <h1 class="post-title archive">
-            混沌初开
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/fragment/2016/12/31/2016-12-31-无法想象的世界/">
-        <h1 class="post-title archive">
-            无法想象的世界
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/fragment/2016/11/01/2016-11-01-GOT-Tyrion/">
-        <h1 class="post-title archive">
-            Oedipus the King and Tyrion Lannister
-        </h1>
-    </a>
-</div>
- 
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pagiantion">
-    
-        <li class="previous"><a href="/fragment/categories/blog/">上一页</a></li>
-    
-    
-</ul>
+                <!-- Meta -->
+                <div class="post-meta">
+                    <hr>
+                    <br>
+                    <div class="post-tags">
+                        
+                            
+
+<a href="/fragment/tags/个人随笔与读后感/">#个人随笔与读后感</a>
+
+
+                        
+                    </div>
+                    <div class="post-date">
+                        2017 年 08 月 17 日
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- Disqus Comments -->
+
+<div id="disqus_thread" class="comment"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES * * */
+  var disqus_shortname = 'bubais';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+            </div>
         </div>
     </div>
-</div>
-
+</article>
+</section>
 
     <!-- Scripts -->
     <!-- jQuery -->
